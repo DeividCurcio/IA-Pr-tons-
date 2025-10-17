@@ -1,0 +1,27 @@
+# Configurações do Sistema Robocop Policial
+
+# Identificação do Sistema
+ROBOCOP_ID = "ROBOCOP-001"
+VERSAO_SISTEMA = "1.0.0"
+
+# Área de Patrulha
+AREA_PATRULHA_PADRAO = "Centro da Cidade"
+
+# Parâmetros de Detecção
+SENSIBILIDADE_DETECCAO = 0.7  # 0.0 a 1.0
+INTERVALO_PATRULHA_SEGUNDOS = 60
+
+# Níveis de Alerta
+NIVEL_ALERTA_BAIXO = 1
+NIVEL_ALERTA_MEDIO = 2
+NIVEL_ALERTA_ALTO = 3
+NIVEL_ALERTA_CRITICO = 4
+
+# Ações Automáticas
+AUTO_RESPOSTA_AMEACA_ALTA = True
+NOTIFICAR_CENTRAL = True
+REGISTRAR_LOGS = True
+
+# Limites Operacionais
+MAX_PATRULHAS_CONTINUAS = 100
+TEMPO_DESCANSO_MINUTOS = 5

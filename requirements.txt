@@ -1,0 +1,5 @@
+# Requirements for Robocop Policial System
+# Python 3.7+
+
+# No external dependencies required for basic functionality
+# All functionality uses Python standard library
